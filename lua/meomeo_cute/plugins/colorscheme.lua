@@ -1,10 +1,11 @@
 return {
-  "NLKNguyen/papercolor-theme",
-  priority = 1000,
-  config = function()
-    -- White background
-    vim.o.background = "light"
-    -- Apply colorscheme
-    vim.cmd("colorscheme PaperColor")
-  end
+	"rebelot/kanagawa.nvim",
+	priority = 1000,
+	config = function()
+		require("kanagawa").setup({
+			transparent = true,
+			compile = true,
+		})
+		vim.cmd("colorscheme kanagawa")
+	end,
 }
