@@ -1,1 +1,1 @@
-require("meomeo_cute")
+require("meomeo_cute.lazy")
