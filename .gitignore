@@ -1,0 +1,13 @@
+# Neovim runtime
+.cache/
+shada/
+undo/
+backup/
+swap/
+
+# OS
+.DS_Store
+
+# Lazy.nvim
+# lazy-lock.json
+ 
