@@ -18,9 +18,7 @@ return {
 
 		-- keymaps (simple & predictable)
 		keymap = {
-			["<Tab>"] = { "select_next", "snippet_forward", "fallback" },
-			["<S-Tab>"] = { "select_prev", "snippet_backward", "fallback" },
-			["<CR>"] = { "accept", "fallback" },
+			["<C-k>"] = { "accept", "fallback" }, -- Enter chỉ xuống dòng
 		},
 	},
 }
